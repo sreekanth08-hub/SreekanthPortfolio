@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sreekanth Damodar | Python Full Stack Developer & AI/ML Specialist</title>
+  <meta name="description" content="Portfolio of Sreekanth Damodar — Computer Science Engineering student specializing in AI & ML, Python Full Stack Developer, and Web Developer.">
+  <meta name="keywords" content="Sreekanth Damodar, Python Full Stack Developer, AI/ML, Web Developer, Django, Portfolio">
+  <meta name="author" content="Sreekanth Damodar">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Sreekanth Damodar — Portfolio">
+  <meta property="og:description" content="Python Full Stack Developer & AI/ML Specialist. Explore featured projects, technical skills, education, and credentials.">
+  <meta property="og:image" content="assets/ai-greeting-poster.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon / SVG Icon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%2300D2FF'/><stop offset='100%' stop-color='%238B5CF6'/></linearGradient></defs><rect width='100' height='100' rx='24' fill='%23070B14'/><text x='50' y='65' font-family='sans-serif' font-size='52' font-weight='900' fill='url(%23g)' text-anchor='middle'>SD</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <!-- Subtle Background Canvas / Glow Mesh -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-middle" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="header" id="navbar">
+    <div class="nav-container">
+      <a href="#top" class="nav-logo" aria-label="Sreekanth Damodar Home">
+        <span class="logo-badge">SD</span>
+        <span class="logo-text">Damodar <span class="accent-text">Sreekanth</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-links" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#top" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#internship" class="nav-link">Internship</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#contact" class="nav-link">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Items & Social Links -->
+      <div class="nav-actions">
+        <a href="https://github.com/sreekanth08-hub" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile" title="GitHub">
+          <svg class="svg-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sreekanth-damodar-2659292ab" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+          <svg class="svg-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+
+        <a href="assets/resume.pdf" download="Damodar_Sreekanth_Resume.pdf" class="btn btn-outline btn-resume" id="nav-resume-btn">
+          <svg class="svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="hamburger-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Slide-out Drawer -->
+    <div class="mobile-drawer" id="mobile-nav" aria-hidden="true">
+      <div class="mobile-drawer-header">
+        <span class="logo-text"> Damodar<span class="accent-text">Sreekanth</span></span>
+        <button class="close-drawer-btn" id="close-drawer-btn" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#top" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Me</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#internship" class="mobile-nav-link">Internship</a></li>
+        <li><a href="#certificates" class="mobile-nav-link">Certificates</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact Me</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="assets/resume.pdf" download="Damodar_Sreekanth_Resume.pdf" class="btn btn-primary btn-block">
+          <svg class="svg-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download Resume
+        </a>
+        <div class="mobile-socials">
+          <a href="https://github.com/sreekanth08-hub" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span>•</span>
+          <a href="https://www.linkedin.com/in/sreekanth-damodar-2659292ab" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <!-- 4. HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <!-- Left Column -->
+        <div class="hero-content">
+          <div class="badge-status-pill">
+            <span class="status-indicator-dot"></span>
+            <span>Available for Full-Time Roles &amp; Internships</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-name">Damodar Sreekanth</span> <span class="wave-emoji">👋</span>
+          </h1>
+
+          <!-- Typing Effect Animation -->
+          <div class="typing-container" aria-label="Professional Roles">
+            <span class="typing-prefix">I am a </span>
+            <span class="typing-text" id="typing-text"></span>
+            <span class="typing-cursor" aria-hidden="true"></span>
+          </div>
+
+          <!-- Bio Introduction -->
+          <p class="hero-intro">
+            I am a passionate and dedicated Computer Science Engineering student, with a strong foundation in Python, SQL, and web development. I enjoy building practical applications, solving problems, and learning new technologies. Through my projects and hands-on experience, I am eager to grow as a Python Full Stack Developer and contribute to real-world projects.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="hero-btn-projects">
+              <span>View My Projects</span>
+              <svg class="svg-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="hero-btn-contact">
+              <span>Contact Me</span>
+              <svg class="svg-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+            <a href="assets/resume.pdf" download="Damodar_Sreekanth_Resume.pdf" class="btn btn-outline" id="hero-btn-resume">
+              <svg class="svg-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <!-- Small Skill Badges -->
+          <div class="hero-skill-badges">
+            <span class="skill-badge-item">
+              <svg class="badge-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm-1.07 3.5h2.14v3.22h-2.14zm0 4.29h2.14V17.5h-2.14zm0 10.72h2.14v2h-2.14z"/>
+              </svg>
+              Python
+            </span>
+            <span class="skill-badge-item">
+              <svg class="badge-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              Web Development
+            </span>
+            <span class="skill-badge-item">
+              <svg class="badge-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              DSA &amp; Problem Solving
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Column: AI Video / Greeting Card -->
+        <div class="hero-media-wrapper">
+          <div class="video-card-container glow-border-wrapper">
+            <div class="video-card glass-panel">
+              <!-- Top HUD Header -->
+              <div class="video-card-header">
+                <div class="video-status-tag">
+                  <span class="live-dot"></span>
+                  <span class="status-label">AI GREETING SYSTEM</span>
+                </div>
+                <div class="video-window-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+              </div>
+
+              <!-- Video / Media Display Area -->
+              <div class="video-display-area" id="video-wrapper">
+                <video 
+                  id="ai-greeting-video" 
+                  poster="assets/ai-greeting-poster.jpg" 
+                  preload="metadata"
+                  playsinline
+                  aria-label="AI Greeting Video of Sreekanth Damodar">
+                  <source src="assets/ai-greeting.mp4" type="video/mp4">
+                  <p>Your browser does not support HTML5 video.</p>
+                </video>
+
+                <!-- Video Overlay Play Button -->
+                <div class="video-overlay-cover" id="video-overlay" role="button" tabindex="0" aria-label="Play AI Greeting Video">
+                  <div class="play-pulse-ring"></div>
+                  <button class="custom-play-btn" aria-hidden="true" tabindex="-1">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                      <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                  </button>
+                  <span class="play-prompt-text">Click to Play AI Greeting</span>
+                </div>
+
+                <!-- Live Subtitles / Speech Bubble Overlay -->
+                <div class="video-captions-box" id="video-captions">
+                  <div class="captions-avatar">
+                    <img src="assets/profile.jpg" alt="Sreekanth Damodar" onerror="this.src='assets/ai-greeting-poster.jpg'">
+                  </div>
+                  <div class="captions-content">
+                    <span class="caption-speaker">Damodar Sreekanth </span>
+                    <p class="caption-text">"Hi, I'm Damodar Sreekanth . Welcome to my portfolio!"</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Video Player Control Bar -->
+              <div class="video-controls-bar">
+                <button class="ctrl-btn" id="ctrl-play-pause" aria-label="Play or Pause">
+                  <svg class="ctrl-icon icon-play" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                  <svg class="ctrl-icon icon-pause" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="display:none;">
+                    <rect x="6" y="4" width="4" height="16"></rect>
+                    <rect x="14" y="4" width="4" height="16"></rect>
+                  </svg>
+                </button>
+
+                <div class="video-timeline" id="ctrl-timeline-wrap">
+                  <div class="timeline-bar" id="ctrl-progress-bar">
+                    <div class="timeline-handle"></div>
+                  </div>
+                </div>
+
+                <div class="video-time-display" id="ctrl-time-text">0:00 / 0:06</div>
+
+                <!-- Audio greeting voice trigger -->
+                <button class="ctrl-btn" id="ctrl-speak-btn" aria-label="Voice Synthesizer Greeting" title="Play Voice Audio">
+                  <svg class="ctrl-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                  </svg>
+                </button>
+
+                <!-- Fullscreen button -->
+                <button class="ctrl-btn" id="ctrl-fullscreen" aria-label="Toggle Fullscreen">
+                  <svg class="ctrl-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <polyline points="9 21 3 21 3 15"></polyline>
+                    <line x1="21" y1="3" x2="14" y2="10"></line>
+                    <line x1="3" y1="21" x2="10" y2="14"></line>
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Footer Caption Pill -->
+              <div class="video-card-footer">
+                <div class="waveform-anim" aria-hidden="true">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <span class="footer-caption-text">Interactive Greeting &bull; Damodar Sreekanth </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. ABOUT ME SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Overview</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Narrative Card -->
+          <div class="about-narrative glass-panel">
+            <h3 class="about-name">
+              Damodar <span class="accent-text">Sreekanth</span>
+            </h3>
+            <p class="about-para">
+              I am a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning at Siddartha Institute of Science and Technology. I have a strong interest in Python development, web technologies, and software development. My technical skills include Python, SQL, SQLite, HTML, CSS, and JavaScript, along with a growing understanding of Data Structures and Algorithms.
+            </p>
+            <p class="about-para">
+              I have worked on projects such as an AI Medical Chatbot and Foodie Hub, which helped me improve my programming, problem-solving, and application development skills. I am also gaining practical experience as a Python Full Stack Developer intern at KodNest.
+            </p>
+            <p>I believe in consistency, hard work, and continuous learning. My goal is to strengthen my technical skills, build meaningful projects, and become a skilled developer who creates useful solutions to real-world problems.</p>
+
+            <div class="strengths-highlight">
+              <div class="strength-item">
+                <span class="strength-icon">⚡</span>
+                <span class="strength-label">Consistency &amp; Hard Work</span>
+              </div>
+              <div class="strength-item">
+                <span class="strength-icon">🎯</span>
+                <span class="strength-label">Real-World Problem Solving</span>
+              </div>
+              <div class="strength-item">
+                <span class="strength-icon">🚀</span>
+                <span class="strength-label">Continuous Technical Growth</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Personal Information Card -->
+          <div class="about-info-card glass-panel">
+            <div class="info-card-header">
+              <div class="avatar-circle">
+                <img src="assets/profile.jpg" alt="Sreekanth Damodar" onerror="this.src='assets/ai-greeting-poster.jpg'">
+              </div>
+              <div>
+                <h4 class="info-card-title">Damodar Sreekanth </h4>
+                <p class="info-card-subtitle">AI &amp; ML Undergrad &bull; Class of 2026</p>
+              </div>
+            </div>
+
+            <div class="info-rows-list">
+              <div class="info-row">
+                <span class="info-key">Name:</span>
+                <span class="info-val font-semibold">Damodar Sreekanth </span>
+              </div>
+              <div class="info-row">
+                <span class="info-key">College:</span>
+                <span class="info-val">Siddartha Institute of Science and Technology</span>
+              </div>
+              <div class="info-row">
+                <span class="info-key">Degree:</span>
+                <span class="info-val">B.Tech in Computer Science Engineering</span>
+              </div>
+              <div class="info-row">
+                <span class="info-key">Specialization:</span>
+                <span class="info-val accent-pill">Artificial Intelligence &amp; Machine Learning</span>
+              </div>
+              <div class="info-row">
+                <span class="info-key">Location:</span>
+                <span class="info-val">Tirupati, Andhra Pradesh, India</span>
+              </div>
+              <div class="info-row">
+                <span class="info-key">Roles:</span>
+                <span class="info-val">Python Full Stack Developer | Web Developer</span>
+              </div>
+              <div class="info-row">
+                <span class="info-key">Strengths:</span>
+                <span class="info-val highlight-val">Consistency and Hard Work</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. TECHNICAL SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Expertise</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">Categorized competencies and practical developer toolsets</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- 1. Programming and Databases -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon-wrap cat-blue">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Programming &amp; Databases</h3>
+            </div>
+            <div class="skills-items-wrapper">
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- Python SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                    <path d="M11.9 1a6.9 6.9 0 0 0-6.9 6.9v2.1h6.9v.7H5V8a7 7 0 1 1 14 0v2.7h-3.5v-.7H19V7.9A6.9 6.9 0 0 0 12.1 1h-.2zm-3.2 2.3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3.4 19.7a6.9 6.9 0 0 0 6.9-6.9V14h-6.9v-.7H19V16a7 7 0 1 1-14 0v-2.7h3.5v.7H5v2.8a6.9 6.9 0 0 0 6.9 6.9h.2zm3.2-2.3a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">Python</span>
+                  <span class="tech-sub">Core, OOP, Automation</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- SQL SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 3.79 2 6v12c0 2.21 4.48 4 10 4s10-1.79 10-4V6c0-2.21-4.48-4-10-4zm0 2c4.41 0 8 1.34 8 2s-3.59 2-8 2-8-1.34-8-2 3.59-2 8-2zm8 6c0 .66-3.59 2-8 2s-8-1.34-8-2V8.2c1.78 1.12 4.7 1.8 8 1.8s6.22-.68 8-1.8V10zm0 6c0 .66-3.59 2-8 2s-8-1.34-8-2v-1.8c1.78 1.12 4.7 1.8 8 1.8s6.22-.68 8-1.8V16z"/>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">SQL</span>
+                  <span class="tech-sub">Queries, Joins, Aggregation</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- SQLite SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                    <line x1="8" y1="15" x2="16" y2="15"></line>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">SQLite</span>
+                  <span class="tech-sub">Embedded DB, Schemas</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- JavaScript SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                    <path d="M3 3h18v18H3V3zm15.6 13.8c-.3-.2-.7-.4-1.2-.5-.5-.1-.9-.1-1.3 0-.4.1-.7.3-.9.6-.2.3-.3.7-.3 1.2 0 .5.1.9.3 1.2.2.3.5.5.9.6.4.1.8.1 1.3 0 .4-.1.8-.3 1.1-.6v-2.5zm-5.4.3c-.3-.4-.5-.9-.6-1.5h1.9c0 .4.1.7.3.9.2.2.5.3.8.3.4 0 .7-.1.9-.3.2-.2.3-.5.3-.9 0-.3-.1-.6-.3-.8-.2-.2-.5-.4-.9-.6l-1.3-.5c-.7-.3-1.2-.6-1.6-1.1-.4-.5-.6-1.1-.6-1.9 0-.8.3-1.5.8-2 .5-.5 1.3-.8 2.2-.8.9 0 1.6.3 2.1.8.5.5.8 1.2.8 2.1h-1.9c0-.4-.1-.7-.3-.9-.2-.2-.5-.3-.8-.3-.3 0-.6.1-.8.3-.2.2-.3.4-.3.7 0 .3.1.5.3.7.2.2.5.3.9.5l1.3.5c.8.3 1.4.7 1.8 1.2.4.5.6 1.2.6 2 0 .9-.3 1.6-.9 2.2-.6.6-1.4.8-2.4.8-1 0-1.8-.3-2.3-.8z"/>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">JavaScript</span>
+                  <span class="tech-sub">ES6+, Asynchronous, APIs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Frontend Development -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon-wrap cat-cyan">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Frontend Development</h3>
+            </div>
+            <div class="skills-items-wrapper">
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- HTML5 SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                    <path d="M1.5 0h21l-1.9 21.2L12 24l-8.6-2.8L1.5 0zm17.4 5.3H5.1l.4 4.5h12.9l-.5 5.5-5.9 1.6-5.9-1.6-.3-3.1h2.8l.2 1.4 3.2.9 3.2-.9.3-3.8H5.9l-.8-9h14.2l-.4 4.5z"/>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">HTML5</span>
+                  <span class="tech-sub">Semantic Structure, SEO</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- CSS3 SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                    <path d="M1.5 0h21l-1.9 21.2L12 24l-8.6-2.8L1.5 0zm17 5.3H5.5l.3 3.6h12.4l-.4 4.2H6.1l.3 3.6h10.9l-.5 5.2-4.8 1.3-4.8-1.3-.3-2.9H4.1l.5 5.3 7.4 2.1 7.4-2.1 1.1-13.7H1.9"/>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">CSS3</span>
+                  <span class="tech-sub">Flexbox, Grid, Animations</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- Responsive Web Design SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">Responsive Design</span>
+                  <span class="tech-sub">Mobile-First, Breakpoints</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- DOM Manipulation SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="14" width="7" height="7"></rect>
+                    <rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">DOM Manipulation</span>
+                  <span class="tech-sub">Events, Dynamic UI, State</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Computer Science -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon-wrap cat-violet">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 20V10"></path>
+                  <path d="M12 20V4"></path>
+                  <path d="M6 20v-6"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Computer Science</h3>
+            </div>
+            <div class="skills-items-wrapper">
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <line x1="9" y1="6" x2="21" y2="6"></line>
+                    <line x1="9" y1="18" x2="21" y2="18"></line>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">Data Structures</span>
+                  <span class="tech-sub">Arrays, Lists, Trees, Stacks</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">Algorithms</span>
+                  <span class="tech-sub">Sorting, Searching, Recursion</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">Problem Solving</span>
+                  <span class="tech-sub">Analytical &amp; Algorithmic</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Development Tools -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon-wrap cat-emerald">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Development Tools</h3>
+            </div>
+            <div class="skills-items-wrapper">
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- Git SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                    <path d="M2.6 10.6L10.6 2.6a2.02 2.02 0 0 1 2.86 0l8.03 8.03a2.02 2.02 0 0 1 0 2.86l-8.03 8.03a2.02 2.02 0 0 1-2.86 0L2.6 13.49a2.05 2.05 0 0 1 0-2.89zm10.74 3.7a1.8 1.8 0 0 0-1.12-1.55v-3.1a1.8 1.8 0 0 0 1.12-1.55 1.82 1.82 0 1 0-2.42 1.72v3.1a1.8 1.8 0 0 0-1.12 1.55 1.82 1.82 0 1 0 3.54-.17z"/>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">Git</span>
+                  <span class="tech-sub">Version Control, Branching</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- GitHub SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">GitHub</span>
+                  <span class="tech-sub">Repos, CI/CD, Collaboration</span>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="tech-icon-box">
+                  <!-- VS Code SVG -->
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                    <path d="M17.47 0L.53 15.68l4.49 3.45L23.47 4.14 17.47 0zm.01 16.59L8.35 9.53l9.13-7.06v14.12zm-12.45.69l3.52-2.72-3.52-2.72v5.44zm12.45 6.72L4.99 4.87l-4.46 3.44L17.48 24l5.99-4.14-5.99-4.14z"/>
+                  </svg>
+                </div>
+                <div class="tech-info">
+                  <span class="tech-name">VS Code</span>
+                  <span class="tech-sub">IDE, Debugging, Extensions</span>
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. FEATURED PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">Real-world engineering applications built with Python and modern web technologies</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Featured Project 1: AI Medical Chatbot -->
+          <article class="project-card glass-panel" id="project-card-1">
+            <div class="project-card-inner">
+              <div class="project-badge-row">
+                <span class="project-tag-featured">⭐ Featured Project 1</span>
+                <span class="project-status-badge status-completed">
+                  <span class="status-pulse-dot"></span> Shipped / Production Ready
+                </span>
+              </div>
+
+              <h3 class="project-title">AI Medical Chatbot for Emergency Medical Assistance</h3>
+              <p class="project-tagline">Multimodal Diagnostic &amp; Triage Assistant</p>
+
+              <p class="project-summary">
+                A multimodal healthcare assistant built to process text, voice, and uploaded medical images for preliminary medical guidance during critical emergency triage scenarios.
+              </p>
+
+              <!-- Key Achievements / Highlights -->
+              <div class="project-highlights">
+                <h4 class="highlights-title">Key Architectural Highlights:</h4>
+                <ul class="highlights-list">
+                  <li>
+                    <span class="list-bullet">▹</span>
+                    <span><strong>Multimodal Backend Pipeline:</strong> Developed unified processing pipeline accepting symptom descriptions, speech audio, and medical scans simultaneously.</span>
+                  </li>
+                  <li>
+                    <span class="list-bullet">▹</span>
+                    <span><strong>NLP Symptom Parsing:</strong> Utilized Natural Language Processing algorithms to extract symptom severity, medical intent, and context with high parsing accuracy.</span>
+                  </li>
+                  <li>
+                    <span class="list-bullet">▹</span>
+                    <span><strong>CNN Image Analysis:</strong> Integrated Convolutional Neural Network vision pipeline to classify uploaded medical scans and provide supporting diagnostic indicators.</span>
+                  </li>
+                  <li>
+                    <span class="list-bullet">▹</span>
+                    <span><strong>Unified Response Flow:</strong> Combined audio transcription, NLP analysis, and visual data into coherent emergency guidance responses.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Tech Stack Tags -->
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">NLP</span>
+                <span class="tech-tag">CNN / Computer Vision</span>
+                <span class="tech-tag">Image Processing</span>
+                <span class="tech-tag">Speech Recognition</span>
+                <span class="tech-tag">REST API</span>
+              </div>
+
+              <!-- Action Links -->
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm btn-project-preview" data-project="medical-chatbot">
+                  <svg class="svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  <span>Project Overview</span>
+                </button>
+                <a href="https://github.com/sreekanth08-hub" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <svg class="svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Featured Project 2: Foodie Hub – Online Food Ordering Web Application -->
+          <article class="project-card glass-panel" id="project-card-2">
+            <div class="project-card-inner">
+              <div class="project-badge-row">
+                <span class="project-tag-featured">⭐ Featured Project 2</span>
+                <span class="project-status-badge status-active">
+                  <span class="status-pulse-dot"></span> Responsive Web Application
+                </span>
+              </div>
+
+              <h3 class="project-title">Foodie Hub – Online Food Ordering Web Application</h3>
+              <p class="project-tagline">Responsive Food Browsing &amp; Cart Management Platform</p>
+
+              <p class="project-summary">
+                A responsive web application developed using HTML, CSS, and JavaScript to simplify online food browsing and ordering, featuring interactive menus, food search, category filtering, and shopping cart management.
+              </p>
+
+              <!-- Key Achievements / Highlights -->
+              <div class="project-highlights">
+                <h4 class="highlights-title">Key Technical Highlights:</h4>
+                <ul class="highlights-list">
+                  <li>
+                    <span class="list-bullet">▹</span>
+                    <span><strong>Dynamic Food Menu:</strong> Displayed food items with images, prices, ratings, and categories using reusable JavaScript functions.</span>
+                  </li>
+                  <li>
+                    <span class="list-bullet">▹</span>
+                    <span><strong>Cart Management:</strong> Implemented add-to-cart, quantity updates, item removal, and automatic price calculations.</span>
+                  </li>
+                  <li>
+                    <span class="list-bullet">▹</span>
+                    <span><strong>Search &amp; Filtering:</strong> Enabled users to search food items and filter menus by category for easier navigation.</span>
+                  </li>
+                  <li>
+                    <span class="list-bullet">▹</span>
+                    <span><strong>Persistent Data Storage:</strong> Used browser LocalStorage to retain cart items across page refreshes.</span>
+                  </li>
+                  <li>
+                    <span class="list-bullet">▹</span>
+                    <span><strong>Responsive UI Design:</strong> Created a user-friendly interface that adapts to desktop, tablet, and mobile screens.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Tech Stack Tags -->
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">LocalStorage</span>
+              </div>
+
+              <!-- Action Links -->
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm btn-project-preview" data-project="food-ordering">
+                  <svg class="svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  <span>Project Overview</span>
+                </button>
+                <a href="https://github.com/sreekanth08-hub" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <svg class="svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Academic Journey</span>
+          <h2 class="section-title">Education</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="timeline-container max-w-lg">
+          <div class="timeline-card glass-panel">
+            <div class="timeline-icon-box">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-period">2022 — 2026</span>
+                <span class="timeline-badge-score">CGPA: 8.14</span>
+              </div>
+              <h3 class="timeline-degree">B.Tech in Computer Science Engineering</h3>
+              <p class="timeline-specialization">Specialization in Artificial Intelligence and Machine Learning</p>
+              <h4 class="timeline-institution">Siddartha Institute of Science and Technology</h4>
+              <p class="timeline-location">Puttur, Andhra Pradesh, India</p>
+
+              <div class="timeline-details">
+                <p class="details-heading">Core Coursework &amp; Foundations:</p>
+                <div class="coursework-tags">
+                  <span>Artificial Intelligence</span>
+                  <span>Machine Learning</span>
+                  <span>Data Structures &amp; Algorithms</span>
+                  <span>Database Management Systems</span>
+                  <span>Object-Oriented Programming (Python)</span>
+                  <span>Web Development Technologies</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. INTERNSHIP SECTION -->
+    <section class="section internship-section" id="internship">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Work Experience</span>
+          <h2 class="section-title">Internships</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">Practical industry exposure in software development and applied machine learning</p>
+        </div>
+
+        <div class="internship-grid">
+          <!-- Internship 1: KodNest Technologies -->
+          <div class="experience-card glass-panel">
+            <div class="exp-header">
+              <div class="exp-icon-box exp-kodnest">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="exp-role">Python Full Stack Intern</span>
+                <h3 class="exp-company">KodNest Technologies</h3>
+                <span class="exp-location">Bengaluru, Karnataka, India</span>
+              </div>
+            </div>
+
+            <ul class="exp-duties-list">
+              <li>Acquired practical software development expertise in Python, MySQL, and frontend web development.</li>
+              <li>Collaborated on real-world modular codebases following industry testing and debugging standards.</li>
+              <li>Built backend data access logic, query optimization routines, and manual testing validation suites.</li>
+            </ul>
+
+            <div class="exp-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Frontend Engineering</span>
+              <span class="tech-tag">Manual Testing</span>
+            </div>
+          </div>
+
+          <!-- Internship 2: SmartBridge -->
+          <div class="experience-card glass-panel">
+            <div class="exp-header">
+              <div class="exp-icon-box exp-smartbridge">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+              </div>
+              <div>
+                <span class="exp-role">AI / ML Intern</span>
+                <h3 class="exp-company">SmartBridge</h3>
+                <span class="exp-location">Remote &bull; 2 Months</span>
+              </div>
+            </div>
+
+            <ul class="exp-duties-list">
+              <li>Learned and applied core machine learning concepts through hands-on model-building assignments.</li>
+              <li>Conducted exploratory data analysis, dataset preprocessing, and hyperparameter tuning.</li>
+              <li>Developed practical understanding of data pipelines and predictive modeling workflows.</li>
+            </ul>
+
+            <div class="exp-stack">
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">Data Preprocessing</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Model Evaluation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. CERTIFICATES SECTION -->
+    <section class="section certs-section" id="certificates">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Certifications</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">Verified professional credentials and course accomplishments</p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1: NPTEL Elite Certificate -->
+          <div class="cert-card glass-panel highlight-cert-card">
+            <div class="cert-top">
+              <div class="cert-badge-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <span class="cert-issue-date">Jan–Apr 2025 &bull; Elite 65%</span>
+            </div>
+            <h3 class="cert-title">The Joy of Computing using Python</h3>
+            <span class="cert-issuer">NPTEL &bull; Indian Institute of Technology Madras</span>
+            <p class="cert-desc">12-week Elite certification funded by MoE, Govt. of India / Swayam. Scored 24.91/25 in assignments &amp; 39.75/75 in proctored exam. Roll No: NPTEL25CS69S1058901840.</p>
+            <div class="cert-footer">
+              <a href="assets/NPTEL-Joy-of-Computing-using-Python.pdf" target="_blank" class="btn btn-primary btn-xs">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                View NPTEL Certificate PDF
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 2: Udemy 100 Days of Code -->
+          <div class="cert-card glass-panel">
+            <div class="cert-top">
+              <div class="cert-badge-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <span class="cert-issue-date">Udemy Verified</span>
+            </div>
+            <h3 class="cert-title">100 Days of Code™: The Complete Python Pro Bootcamp</h3>
+            <span class="cert-issuer">Udemy &bull; Dr. Angela Yu</span>
+            <p class="cert-desc">Comprehensive bootcamp covering Python programming, OOP, data analysis, automation, web applications, and building 100 practical Python projects.</p>
+            <div class="cert-footer">
+              <span class="cert-verified-pill">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Verified Course &bull; Udemy
+              </span>
+            </div>
+          </div>
+
+          <!-- Cert 3: Aavanto Certificate -->
+          <div class="cert-card glass-panel">
+            <div class="cert-top">
+              <div class="cert-badge-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <span class="cert-issue-date">ID: AVNT2026143</span>
+            </div>
+            <h3 class="cert-title">Professional Training &amp; Project Certificate</h3>
+            <span class="cert-issuer">Aavanto Technologies</span>
+            <p class="cert-desc">Industry project work and technical achievement credential recognized by Aavanto.</p>
+            <div class="cert-footer">
+              <a href="assets/Aavanto Certificate — AVNT2026143.pdf" target="_blank" class="btn btn-outline btn-xs">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                View PDF Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. CONTACT ME SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">Have a project, role opening, or want to discuss full-stack Python development? Feel free to reach out!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Center: Contact Details & Social Links -->
+          <div class="contact-cards-column">
+            <!-- Email Card -->
+            <div class="contact-info-card glass-panel">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-meta">
+                <span class="contact-meta-label">Email Address</span>
+                <a href="mailto:dsrikanth901@gmail.com" class="contact-meta-val" id="email-link">dsrikanth901@gmail.com</a>
+              </div>
+              <button class="copy-btn" data-copy="dsrikanth901@gmail.com" aria-label="Copy Email" title="Copy Email">
+                <svg class="copy-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="contact-info-card glass-panel">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-meta">
+                <span class="contact-meta-label">Phone</span>
+                <a href="tel:+919014821473" class="contact-meta-val" id="phone-link">+91 9014821473</a>
+              </div>
+              <button class="copy-btn" data-copy="+919014821473" aria-label="Copy Phone" title="Copy Phone Number">
+                <svg class="copy-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-info-card glass-panel">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-meta">
+                <span class="contact-meta-label">Location</span>
+                <span class="contact-meta-val">Tirupati, Andhra Pradesh, India</span>
+              </div>
+            </div>
+
+            <!-- Social / Professional Profiles Card -->
+            <div class="contact-social-strip glass-panel">
+              <span class="contact-meta-label">Connect Online</span>
+              <div class="contact-social-buttons">
+                <a href="https://www.linkedin.com/in/sreekanth-damodar-2659292ab" target="_blank" rel="noopener noreferrer" class="social-box-link" aria-label="LinkedIn Profile">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                  <span>Connect on LinkedIn</span>
+                </a>
+                <a href="https://github.com/sreekanth08-hub" target="_blank" rel="noopener noreferrer" class="social-box-link" aria-label="GitHub Profile">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Explore GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-badge">SD</span>
+          <span class="footer-name">Damodar Sreekanth </span>
+          <p class="footer-tagline">Python Full Stack Developer &bull; AI &amp; ML Enthusiast</p>
+        </div>
+
+        <div class="footer-nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#internship">Internship</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> Damodar Sreekanth . Designed with high-performance Vanilla HTML5, CSS3 &amp; JavaScript.
+        </p>
+        <a href="#top" class="back-to-top-btn" aria-label="Back to Top">
+          <span>Back to Top</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT PREVIEW MODAL -->
+  <div class="modal-overlay" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog glass-panel">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-project-title">Project Details</h3>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-project-body">
+        <!-- Dynamically injected via script.js -->
+      </div>
+      <div class="modal-footer" id="modal-project-footer">
+        <button class="btn btn-secondary btn-sm" id="modal-dismiss-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div class="toast-notification" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
